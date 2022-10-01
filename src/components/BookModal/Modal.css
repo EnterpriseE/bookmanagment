@@ -1,0 +1,103 @@
+.modalBackground {
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-box{
+    width: 300px;
+    height: 70vh;
+    background-color: white;
+  }
+  .img-inside{
+    margin:auto;
+    max-height: 50%;
+    max-width: 80%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+  }
+  .bookcontainer{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .bookmodalContainer {
+    width: 800px;
+    height: 600px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+  }
+  
+  .bookmodalContainer.rightPart{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+  }
+
+
+  .bookmodalContainer.rightPart{
+    display: flex;
+    flex-direction: column;
+  }
+  .bookmodalContainer.rows{
+    display: flex;
+  }
+  
+  .bookmodalContainer .title {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  /* .titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .bookmodalContainer .body {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  
+  .bookmodalContainer .footer {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bookmodalContainer .footer button {
+    width: 150px;
+    height: 45px;
+    margin: 10px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  #cancelBtn {
+    background-color: crimson;
+  } */

@@ -1,0 +1,65 @@
+.navbar {
+    height: 10%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    color: white;
+    .avatar {
+      display: flex;
+      align-items: center;
+      gap: 0.8vw;
+      img {
+        height: 7vh;
+        border-radius: 2rem;
+      }
+      
+    }
+
+
+    .brand {
+      background-color: black;
+      height: 10%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 40px;
+      h2 {
+        font-weight: 900;
+        letter-spacing: 0.3vw;
+        span {
+          color: rgb(97, 219, 251);
+          font-weight: 900;
+        }
+      }
+    }
+   
+    .navbar__info {
+      display: flex;
+      align-items: center;
+      gap: 1.4vw;
+  
+      .search__bar {
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2vw;
+        padding: 0 1vw;
+        input {
+          height: 5vh;
+          width: 15vw;
+          padding: 1vw;
+          border: none;
+          &:focus {
+            outline: none;
+          }
+        }
+        svg {
+          color: rgb(97, 219, 251);
+        }
+      }
+    }
+  }
